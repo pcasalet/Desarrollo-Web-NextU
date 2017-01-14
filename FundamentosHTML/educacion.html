@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hoja de Vida Digital</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/Estilos.css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 98px;
+        }
+    </style>
+</head>
+<body>
+    <svg width="100px;" height="100Px;">
+        <image href="img/logoPC.svg" width="300px" height="300px"></image>
+    </svg>
+    <h1>Curriculum Vitae</h1>
+
+    <article>
+        <h1>Datos Personales</h1>
+        <h2>Nombres</h2>
+        <h3>Pablo Raul</h3>
+        <h2>Apellidos</h2>
+        <h3>Casalet</h3>
+        <h2>Fecha y Lugar de Nacimiento</h2>
+        <h3>Buenos Aires, 24 de Diciembre de 1976 </h3>
+    </article>
+    <div id="navegacion">
+        <nav>
+
+            <a href="experiencia.html">Experiencia</a>
+            <a href="indice.html">Inicio</a>
+        </nav>
+    </div>
+    <div id="educacion">
+        <h2>Educacion</h2>
+        <table border="1" style="height: 74px; width: 586px">
+            <tr>
+                <td>Año</td>
+                <td>Institucion</td>
+                <td>Lugar</td>
+                <td class="auto-style1">Culmino?</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style1">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style1">&nbsp;</td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="estudios">
+        <form>
+            <h2>Agregar Estudios</h2>
+            <label for="anio">Año: </label>
+            <select id="anio">
+                <option value="2017" selected>2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+            </select>
+            <br />
+            <label for="institucion">Institucion: </label>
+            <input type="text" id="institucion" />
+            <br />
+            <label for="lugar">Lugar: </label>
+            <textarea id="lugar" rows="4" cols="50"></textarea>
+            <br />
+            <br />
+            Culmino?
+          
+        <input type="radio" name="culmino" value="SI">SI
+       <input type="radio" name="culmino" value="NO" />NO
+
+            <br />
+            <br />
+            <input type="submit" />
+        </form>
+    </div>
+
+
+    <footer>
+        <h4>Datos de Contacto</h4>
+        <a href="mailto:pcasalet@gmail.com">pcasalet@gmail.com</a>&nbsp; +54 9 11 555 1234
+    </footer>
+
+</body>
+</html>
